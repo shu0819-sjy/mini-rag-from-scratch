@@ -1,6 +1,6 @@
 # mini-rag-from-scratch 本机实测记录（2026-09-24）
 
-环境：Windows 11 / Python 3.13（Python 3.13）/ CPU-only torch / sentence-transformers
+环境：Windows 11 / Python 3.13 / CPU-only torch / sentence-transformers
 模型：sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2（384 维）
 
 ## 运行结果
