@@ -1,5 +1,7 @@
 # mini-rag-from-scratch
 
+[![CI](https://github.com/shu0819-sjy/mini-rag-from-scratch/actions/workflows/ci.yml/badge.svg)](https://github.com/shu0819-sjy/mini-rag-from-scratch/actions/workflows/ci.yml)
+
 A minimal **Retrieval-Augmented Generation (RAG)** system built from scratch in a single ~130-line `main.py` — **no FAISS, no vector database, no paid API**. Just `sentence-transformers` for embeddings and pure `numpy` for cosine-similarity retrieval.
 
 It is a teaching repository: every step — **chunking / embedding / retrieval / recall@k evaluation** — is explained step by step in the Chinese code comments, and the built-in corpus is 8 short Chinese documents about RAG itself. The code answers questions about its own pipeline.
