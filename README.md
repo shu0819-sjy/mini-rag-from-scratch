@@ -23,11 +23,20 @@ user query ──embed()──▶ query vector ──numpy cosine──┴──
 
 ## Quick start
 
+Create a virtual environment first. On Windows PowerShell use
+`.\.venv\Scripts\Activate.ps1`; on macOS/Linux use `source
+.venv/bin/activate`.
+
 ```bash
+python -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
 python main.py "为什么切块要有重叠"   # single-query retrieval demo
 python main.py --eval                # run the built-in recall@k evaluation
 ```
+
+The full model download is optional for development: the repository tests stub
+the encoder and run without network access.
 
 > The first run downloads the multilingual encoder `paraphrase-multilingual-MiniLM-L12-v2` (~0.5 GB) and caches it locally; afterwards everything works offline. No API keys needed.
 
